@@ -40,11 +40,8 @@
 
 * #### result：
 
-  ​											                     <img src="C:\Users\CaramelYo\AppData\Roaming\Typora\typora-user-images\image-20211020183724178.png" alt="image-20211020183724178" style="zoom: 80%;" />
+  ​											                     ![image](https://user-images.githubusercontent.com/43801766/138694009-379e4d4f-f7ea-467b-854e-3ccf07b82e86.png)
 
-  ​				<img src="C:\Users\CaramelYo\AppData\Roaming\Typora\typora-user-images\image-20211020183815185.png" alt="image-20211020183815185" style="zoom:80%;" />
-
-* #### discussion：
 
   可以從上面的result觀察到，Mean Filter只是對圖片做模糊，對於原圖那種Salt-and-Pepper Noise並沒有太好的效果，反倒是直接選中間值對於這種noise的smooth效果會好很多。
 
@@ -80,7 +77,8 @@
 
 * #### result：
 
-  ​												<img src="C:\Users\CaramelYo\AppData\Roaming\Typora\typora-user-images\image-20211020192351153.png" alt="image-20211020192351153" style="zoom:67%;" />  
+  ​												![image](https://user-images.githubusercontent.com/43801766/138694078-81efc5f6-f617-4757-b132-02b9a6a0871f.png)
+  
 
 * #### discussion：
 
@@ -102,7 +100,8 @@
 
 * #### result：
 
-  ​											<img src="C:\Users\CaramelYo\AppData\Roaming\Typora\typora-user-images\image-20211020195805373.png" alt="image-20211020195805373" style="zoom:67%;" />
+  ​											![image](https://user-images.githubusercontent.com/43801766/138694120-fde973ae-3914-4c01-b488-738595f11221.png)
+
 
 * #### discussion：
 
@@ -124,9 +123,11 @@
 
   Sobel operators分為垂直跟水平的 
 
-  垂直：<img src="C:\Users\CaramelYo\AppData\Roaming\Typora\typora-user-images\image-20211020201638962.png" alt="image-20211020201638962" style="zoom:50%;" />
+  $G_x$ 水平：![image](https://user-images.githubusercontent.com/43801766/138694181-13002eab-2a5a-49f4-97d8-ecddb3d13b67.png)
 
-  水平：<img src="C:\Users\CaramelYo\AppData\Roaming\Typora\typora-user-images\image-20211020201757306.png" alt="image-20211020201757306" style="zoom:50%;" />
+
+  $G_y$ 垂直：![image](https://user-images.githubusercontent.com/43801766/138694222-542d13f5-5825-4efb-8ae7-22caf3167b46.png)
+
 
   整張圖片的edge detection只要將垂直跟水平處理後的結果相加就好，實作上我是都乘以0.5再相加。
 
@@ -134,7 +135,8 @@
 
 * #### result：
 
-  <img src="C:\Users\CaramelYo\AppData\Roaming\Typora\typora-user-images\image-20211020202316562.png" alt="image-20211020202316562" style="zoom:67%;" />               <img src="C:\Users\CaramelYo\AppData\Roaming\Typora\typora-user-images\image-20211020202402530.png" alt="image-20211020202402530" style="zoom:67%;" />
+  ![image](https://user-images.githubusercontent.com/43801766/138694609-be209949-28c2-44c0-8b41-ff706c5dfcb7.png)
+
 
 * #### discussion：
 
@@ -156,7 +158,8 @@
 
 * #### result：
 
-  <img src="C:\Users\CaramelYo\AppData\Roaming\Typora\typora-user-images\image-20211020203524523.png" alt="image-20211020203524523" style="zoom:67%;" />
+  ![image](https://user-images.githubusercontent.com/43801766/138694648-db7823ad-e461-43d0-9c51-be0020aea69d.png)
+
 
 * #### discussion：
 
@@ -178,7 +181,7 @@
 
 * #### result：
 
-  <img src="C:\Users\CaramelYo\AppData\Roaming\Typora\typora-user-images\image-20211020204538259.png" alt="image-20211020204538259" style="zoom:67%;" />
+  ![image](https://user-images.githubusercontent.com/43801766/138694692-676192ad-1c00-48f6-be12-937c2a92737f.png)
 
 * #### discussion：
 
@@ -198,11 +201,10 @@
 
   因為只有rotate & scale，所以只要B對A的縮放量以及旋轉角度就能透過公式將B轉回A，主要的公式如下：
 
-  <img src="C:\Users\CaramelYo\AppData\Roaming\Typora\typora-user-images\image-20211020205844521.png" alt="image-20211020205844521" style="zoom:50%;" />
+  ![image](https://user-images.githubusercontent.com/43801766/138694768-033611dc-26b6-40e9-a20e-45dd753f9e53.png)
 
-  <img src="C:\Users\CaramelYo\AppData\Roaming\Typora\typora-user-images\image-20211020205857723.png" alt="image-20211020205857723" style="zoom:50%;" />
 
-  因為沒有平移，因此我們只需要用到 2x2 的矩陣計算就好。scale 由 (A的周長 / B的周長) 求得要縮放多少， 角度能有A與B中相應的某的邊的斜率m1 與 m2求得![image-20211020210325138](C:\Users\CaramelYo\AppData\Roaming\Typora\typora-user-images\image-20211020210325138.png)
+  因為沒有平移，因此我們只需要用到 2x2 的矩陣計算就好。scale 由 (A的周長 / B的周長) 求得要縮放多少， 角度能有A與B中相應的某的邊的斜率m1 與 m2求得![image](https://user-images.githubusercontent.com/43801766/138694836-9a368f4f-c0fd-4ae3-beec-66062daa36b3.png)
 
   最後將B圖的pixel透過上面轉換矩陣轉回A圖上。
 
@@ -210,9 +212,8 @@
 
 * #### result：
 
-  <img src="C:\Users\CaramelYo\AppData\Roaming\Typora\typora-user-images\image-20211020210830881.png" alt="image-20211020210830881" style="zoom:67%;" />
+  ![image](https://user-images.githubusercontent.com/43801766/138694869-d8f81f23-b288-45ed-bf4b-c6a36ced7591.png)
 
-  <img src="C:\Users\CaramelYo\AppData\Roaming\Typora\typora-user-images\image-20211020211047197.png" alt="image-20211020211047197" style="zoom:67%;" />
 
 * #### discussion：
 
