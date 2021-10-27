@@ -1,0 +1,11 @@
+C:\Users\CaramelYo\Desktop\img_process_hw1\img_process_hw1\bin\Debug\img_process_hw1.exe.config
+C:\Users\CaramelYo\Desktop\img_process_hw1\img_process_hw1\bin\Debug\img_process_hw1.exe
+C:\Users\CaramelYo\Desktop\img_process_hw1\img_process_hw1\bin\Debug\img_process_hw1.pdb
+C:\Users\CaramelYo\Desktop\img_process_hw1\img_process_hw1\obj\Debug\img_process_hw1.csprojAssemblyReference.cache
+C:\Users\CaramelYo\Desktop\img_process_hw1\img_process_hw1\obj\Debug\img_process_hw1.Form1.resources
+C:\Users\CaramelYo\Desktop\img_process_hw1\img_process_hw1\obj\Debug\img_process_hw1.Properties.Resources.resources
+C:\Users\CaramelYo\Desktop\img_process_hw1\img_process_hw1\obj\Debug\img_process_hw1.csproj.GenerateResource.cache
+C:\Users\CaramelYo\Desktop\img_process_hw1\img_process_hw1\obj\Debug\img_process_hw1.csproj.CoreCompileInputs.cache
+C:\Users\CaramelYo\Desktop\img_process_hw1\img_process_hw1\obj\Debug\img_process_hw1.exe
+C:\Users\CaramelYo\Desktop\img_process_hw1\img_process_hw1\obj\Debug\img_process_hw1.pdb
+C:\Users\CaramelYo\Desktop\img_process_hw1\img_process_hw1\obj\Debug\img_process_hw1.Q8.resources
