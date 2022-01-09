@@ -80,11 +80,11 @@ use 3 fold cross-validation to train data.
 
 In Yolov4, the three result as below.
 
-<img src="C:\Users\CaramelYo\AppData\Roaming\Typora\typora-user-images\image-20220109183327483.png" alt="image-20220109183327483" style="zoom:80%;" />
+![IOU](https://github.com/XBlackGlasses/nckue_image_process/blob/main/HW2/img/IOU1.png)
 
-![IOU](F:\Img_final_pj\YOLOv4\yolo2\IOU.png)
+![IOU](https://github.com/XBlackGlasses/nckue_image_process/blob/main/HW2//img/IOU2.png)
 
-![IOU](F:\Img_final_pj\YOLOv4\yolo3\IOU.png)
+![IOU](https://github.com/XBlackGlasses/nckue_image_process/blob/main/HW2/img/IOU3.png)
 
 avg IOU :  85.1033 %
 
@@ -94,11 +94,11 @@ average mAP at iou threshold50 = 99.2%
 
 In detectron2, the three result as below
 
-![image-20220109184313283](C:\Users\CaramelYo\AppData\Roaming\Typora\typora-user-images\image-20220109184313283.png)
+![image-20220109184313283](https://github.com/XBlackGlasses/nckue_image_process/blob/main/HW2/img/1.png)
 
-![image-20220109184412992](C:\Users\CaramelYo\AppData\Roaming\Typora\typora-user-images\image-20220109184412992.png)
+![image-20220109184412992](https://github.com/XBlackGlasses/nckue_image_process/blob/main/HW2/img/2.png)
 
-![image-20220109184655808](C:\Users\CaramelYo\AppData\Roaming\Typora\typora-user-images\image-20220109184655808.png)
+![image-20220109184655808](https://github.com/XBlackGlasses/nckue_image_process/blob/main/HW2/img/3.png)
 
 average AP = 45.552%
 
@@ -106,7 +106,7 @@ average AP = 45.552%
 
 In the ui, we can see the results.
 
-![image-20220109190226801](C:\Users\CaramelYo\AppData\Roaming\Typora\typora-user-images\image-20220109190226801.png)
+![image-20220109190226801](https://github.com/XBlackGlasses/nckue_image_process/blob/main/HW2/img/ui.png)
 
 # Discussion
 
