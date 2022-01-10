@@ -22,8 +22,6 @@ conda env create -f environment.yaml
 pip install -r requirements.txt
 ```
 
-
-
 ## Target
 
 detect and classify the fracture of wrist from X-ray images.
@@ -41,6 +39,7 @@ step：
    
 
 ## Data from website
+[dataset](https://drive.google.com/drive/folders/1xk3t4g2h0FPwVmBCkDShpeMF7pay-mp5?usp=sharing)
 
 directory structure：![](https://i.imgur.com/P6KhV3c.png)
 
