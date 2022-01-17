@@ -32,7 +32,7 @@ yolov4：
 
 ​	將Scaphoid_Slice directory 裡的json檔轉成yolo txt的格式，把Fracture、Normal 裡的圖片放到images資料夾下，cfg資料夾用來放生成的train.txt(會有train set 路徑)
 
-​	<img src="https://i.imgur.com/ZQh1hyr.png" style="zoom:80%;" /> 大概是這樣。     train.txt 放圖片路徑(相對於darknet.exe)<img src="C:\Users\CaramelYo\AppData\Roaming\Typora\typora-user-images\image-20211219220956736.png" alt="image-20211219220956736" style="zoom: 80%;" />
+​	<img src="https://i.imgur.com/ZQh1hyr.png" style="zoom:80%;" /> 大概是這樣。     train.txt 放圖片路徑(相對於darknet.exe)![](https://i.imgur.com/StnFYIt.png)
 
 
 
