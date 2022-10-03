@@ -109,9 +109,9 @@ In the ui, we can see the results.
 
 # Discussion
 
-In step 1, we can get much more precise results. The main reason I think may because the bboxs just are square. Moreover, it can  more easier to augment data. 
+In step 1, we can get much more precise results. The main reason may because the bboxs just are square. Moreover, it's easier to augment data. 
 
-In step 2, it's difficult to train the model with rotated bbox. In the case of rotated bbox, detectron2 just can use resizing on data augmentation. I think may it need more data in training step to get better result.
+In step 2, it's difficult to train the model with rotated bbox. In the case of rotated bbox, detectron2 just can use resizing on data augmentation. I think it may need more datas in training step to get better result.
 
 # Conclusion
 
